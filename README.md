@@ -73,6 +73,7 @@ ACQ_VERTICAL_OFFSET : 0
 ```
 
 `trc$plot()` will plot the wfm, by default, downsample 50x for faster plot
+
 two sample images show a wfm and a fft
 
 ![](C1--Trace--00000.png)
