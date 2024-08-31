@@ -6,7 +6,7 @@
 #
 # reference:
 # http://teledynelecroy.com/doc/docview.aspx?id=5891
-# http://forums.ni.com/attachments/ni/60/4652/2/LeCroyWaveformTemplate_2_3.pdf)
+# http://forums.ni.com/attachments/ni/60/4652/2/LeCroyWaveformTemplate_2_3.pdf
 # https://github.com/michael-betz/readTrc
 
 library(tidyverse)
