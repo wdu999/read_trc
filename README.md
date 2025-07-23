@@ -1,6 +1,6 @@
 # Read Trc
 
-Small R script to decode binary waveform (.trc file) saved from Lecroy Scope
+R script to decode Lecroy binary waveform file (.trc)
 
 Require packages
 
@@ -18,7 +18,7 @@ trc$plot()
 trc$to_tsv()
 ```
 
-`trc$print()` will show meta data
+`trc$print()` shows meta data
 
 ``` r
            trc_file : 01_data/C1--Trace--00000.trc
@@ -72,7 +72,7 @@ ACQ_VERTICAL_OFFSET : 0
         WAVE_SOURCE : CHANNEL_1
 ```
 
-`trc$plot()` will plot the wfm, by default, downsample 50x for faster plot
+`trc$plot()` plots the wfm (downsample 50x for faster plot by default)
 
 two sample images show a wfm and a fft
 
@@ -80,4 +80,4 @@ two sample images show a wfm and a fft
 
 ![](F1--Trace--00000.png)
 
-`trc$to_tsv()` will export to a txt file separated by tab
+`trc$to_tsv()` exports waveform to a txt file
